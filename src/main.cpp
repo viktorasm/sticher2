@@ -12,7 +12,7 @@ inline void processImage(cv::Mat &source) {
 	// preview intermediate result
 	const cv::Scalar colorRed(0, 0, 255.0);
 	for (const cv::Point &pt : points) {
-			cv::circle(source, pt, 3, colorRed);
+		cv::circle(source, pt, 3, colorRed);
 	}
 
 	cv::imshow("Source", source);
